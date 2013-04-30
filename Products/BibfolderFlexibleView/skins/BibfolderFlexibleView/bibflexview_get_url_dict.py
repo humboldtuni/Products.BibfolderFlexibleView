@@ -29,18 +29,18 @@ cat = context.portal_catalog
 
 for obj in objlist:
     # XXX getURL()
-    url = obj.Type == 'Link' and obj.getRemoteUrl or obj.getURL()
-
+    url = obj.Type == 'Link' and obj.getRemoteUrl or obj.getURL() 
+    
     priv = ''
     if prop_src.ao_show_priv and not context.portal_bibliography_flexible_view.is_get_object_authorized(obj):
         priv = 'unauthorized'
-
+    
     # intern?
     # XXX diese IP-Kruecke sollte wahrscheins raus
     if not ((prop_src.ao_ip_check_keyword in url) and (not is_hu_ip)):
         key = obj.id
         for sufx in filesufxs:
-            if key.endswith(sufx):
+            if key.endswith(sufx): 
                 key = key.split('.',1)[0]
                 break
         if obj.Title: title = obj.Title

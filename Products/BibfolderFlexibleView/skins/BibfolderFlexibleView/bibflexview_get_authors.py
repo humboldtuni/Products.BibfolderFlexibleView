@@ -12,7 +12,7 @@
 # in die konfig-seite!
 if not prop_src.authors_from_references:
     authors = list(prop_src.authors)
-else:
+else:            
     #cat = context.portal_catalog
     cat = context.queryCatalog
     pubs = cat({'portal_type': context.portal_bibliography.getReferenceTypes(), 'Language':'all', 'path':path});

@@ -31,7 +31,7 @@ if query:
 else:
     results = context
     response_filename = context.getId() + '.' + format
-
+    
 RESPONSE.setHeader('Content-Type', 'application/octet-stream')
 RESPONSE.appendHeader('Cache-Control', 'no-cache')
 RESPONSE.setHeader('Content-Disposition',

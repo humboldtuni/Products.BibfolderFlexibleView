@@ -15,23 +15,23 @@ DISPLAY_VIEWS = {
           }
 
 MASKS = {"<dt title='%abs'><a href='%l'>%T</a></dt> <dd><i>%A</i><br />%src<br />%o</dd>": (
-    'ArticleReference',
-    'BookletReference',
-    'BookReference',
-    'ConferenceReference',
-    'InbookReference',
-    'IncollectionReference',
-    'InproceedingsReference',
-    'ManualReference',
-    'MastersthesisReference',
-    'MiscReference',
-    'PhdthesisReference',
-    'PreprintReference',
-    'ProceedingsReference',
-    'TechreportReference',
-    'UnpublishedReference',
+    'ArticleReference', 
+    'BookletReference', 
+    'BookReference', 
+    'ConferenceReference', 
+    'InbookReference', 
+    'IncollectionReference', 
+    'InproceedingsReference', 
+    'ManualReference', 
+    'MastersthesisReference', 
+    'MiscReference', 
+    'PhdthesisReference', 
+    'PreprintReference', 
+    'ProceedingsReference', 
+    'TechreportReference', 
+    'UnpublishedReference', 
     'WebpublishedReference',
-            ),
+            ),    
         }
 
 
@@ -46,5 +46,6 @@ CATEGORIES  = {
              'theses':              ['PhdthesisReference', 'MasterthesisReference']
              }
 
-DEBUG = 0  ## hide debug messages
+DEBUG = 0  ## hide debug messages 
 #DEBUG = 1  ## see debug messages
+
