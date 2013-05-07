@@ -7,11 +7,11 @@ PROJECTNAME = "BibfolderFlexibleView"
 # wirs mit dem selben namen wie im objekt selbst
 CATALOG_METADATA_ENTRIES = ('publication_url', 'absolute_url')
 
-BIBFOLDERLIKE_TYPES = ('BibliographyFolder', 'ATBiblioTopic')
+BIBFOLDERLIKE_TYPES = ('BibliographyFolder', 'Topic')
 
 DISPLAY_VIEWS = {
      'BibliographyFolder' : ('bibfolder_flexible_view',),
-     'ATBiblioTopic': ('bibfolder_flexible_view',),
+     'Topic': ('bibfolder_flexible_view',),
           }
 
 MASKS = {"<dt title='%abs'><a href='%l'>%T</a></dt> <dd><i>%A</i><br />%src<br />%o</dd>": (

@@ -1,19 +1,28 @@
+0.4.2.2 (2013/05/07)
+--------------------
+
+* Topic is now in BIBFOLDERLIKE_TYPES and DISPLAY_VIEWS
+
 0.4.2.1 (2013/04/30)
 --------------------
-* CMS fixes for Plone 4 compatibility
+
+* fixes for Plone 4 compatibility
 * type default selection is now "all"
 * fixed breadcrumbs
 
 0.4.2 (2011/05/03)
 ------------------
+
 * further Plone 4 compatibility fixes
 
 0.4.0 (2011/05/02)
 ------------------
+
 * Plone 4 compatibility
 
 0.3.9 (2010/01/28)
 ------------------
+
 * compatibility with CMFBibAT 1.0.0b6
 
 0.3.8 (2010/01/20)
